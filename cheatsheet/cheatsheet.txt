@@ -1,0 +1,24 @@
+### Creating Node.js server and React Client
+
+# To create Node.js back end run epress application creator
+npx express-generator api
+
+# To install all dependancies, run
+npm install
+
+## Useful extensions
+# Nodemon will restart the server on changes
+npm install -g nodemon
+# Axios is used to send requests in a clean way
+npm install axios
+
+# To set up port got to /api/bin/www
+
+# Open new project and run cmd to create new React application
+npx create-react-app client
+
+# To test it works run
+npm start
+
+## Useful extensions
+npm i react-dom react-router-dom
